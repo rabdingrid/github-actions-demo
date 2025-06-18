@@ -1,4 +1,5 @@
-mkdir github-actions-demo && cd github-actions-demo
-git init
-echo "# GitHub Actions Demo" >> README.md
+def add(a, b):
+    return a + b
 
+if __name__ == "__main__":
+    print("2 + 3 =", add(2, 3))
